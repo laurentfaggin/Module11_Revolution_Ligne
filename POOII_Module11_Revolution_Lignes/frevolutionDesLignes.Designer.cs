@@ -1,9 +1,7 @@
 ﻿namespace POOII_Module11_Revolution_Lignes
 {
-    partial class fRevolutionLignes
+    partial class fRevolutionDesLignes
     {
-        /// <summary>
-        ///  Required designer variable.
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -98,7 +96,6 @@
             this.btnDessiner.TabIndex = 8;
             this.btnDessiner.Text = "Dessiner";
             this.btnDessiner.UseVisualStyleBackColor = false;
-            this.btnDessiner.Click += new System.EventHandler(this.btnDessiner_Click_1);
             // 
             // nudPasLongueur
             // 
@@ -201,15 +198,15 @@
             this.pCanvas.Size = new System.Drawing.Size(800, 450);
             this.pCanvas.TabIndex = 3;
             // 
-            // fRevolutionLignes
+            // fRevolutionDesLignes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pControles);
             this.Controls.Add(this.pCanvas);
-            this.Name = "fRevolutionLignes";
-            this.Text = "La revolution des lignes";
+            this.Name = "fRevolutionDesLignes";
+            this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.nudLongueurDepart)).EndInit();
             this.pControles.ResumeLayout(false);
             this.pControles.PerformLayout();
@@ -233,15 +230,5 @@
         private NumericUpDown nudPasAngle;
         private Label lbAngle;
         private Panel pCanvas;
-
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
-
-
-        #endregion
     }
 }
